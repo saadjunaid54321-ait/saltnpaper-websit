@@ -1,4 +1,564 @@
-h1{
-    background-color: aqua;
-    color: brown;
+@font-face {
+  font-family: "apercu";
+  src: url(./fonts/apercu-pro/apercu_regular_pro.otf);
+}
+
+@font-face {
+  font-family: "inter";
+  src: url(./fonts/Inter/static/Inter_28pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "futurak";
+  src: url(./fonts/futurak/futurak.ttf);
+}
+
+@font-face {
+  font-family: "TnR";
+  src: url(./fonts/timenewroman/times.ttf);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+}
+
+#imgbox>img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  margin-left: 50px;
+}
+
+#achor>nav>a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "inter";
+  margin-top: auto;
+}
+
+#achor {
+  width: 45%;
+  height: auto;
+  margin-right: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: -0.25px;
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "inter";
+  min-width: 100px;
+}
+
+.btn:hover {
+  background: transparent;
+  color: white;
+  border-color: #fff;
+}
+
+
+#btn-sec {
+  background-color: red;
+  border: none;
+  padding: 15px 11px;
+}
+
+.btn>span {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+span i {
+  color: red;
+}
+
+#middle-content {
+  text-align: center;
+  font-family: "apercu";
+  color: white;
+  margin-top: 70px;
+  font-style: normal;
+  letter-spacing: -0.25px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#heading {
+  font-family: "futurak";
+  font-size: 50px;
+}
+
+#middle-content-sec {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.img-box {
+  background-color: white;
+  width: 250px;
+  height: 140px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-box>img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.img-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 30px;
+  padding: 15px 10px;
+  cursor: pointer;
+  min-width: 170px;
+  outline: none;
+  font-family: sans-serif;
+  letter-spacing: 0.05rem;
+  margin-top: 20px;
+}
+
+
+
+/* Sencond Middle Work */
+
+
+
+#sec-middlecontent {
+  width: 100%;
+  height: 182vh;
+  background-color: #0f0f0f;
+  margin-top: 70px;
+}
+
+
+#second-mdcontent {
+  font-family: "apercu";
+  color: white;
+  font-style: normal;
+  letter-spacing: -0.25px;
+  width: 70%;
+  height: 33vh;
+  margin: auto;
+  padding: 70px;
+  text-align: center;
+}
+
+#headingsec {
+  font-family: "futurak";
+  font-size: 50px;
+}
+
+#headingfont {
+  font-family: "TnR";
+  font-size: 50px;
+}
+
+#double {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+
+}
+
+#dettoone {
+  width: 44%;
+  height: auto;
+}
+
+#dettosec {
+  width: 44%;
+  height: 100vh;
+}
+
+.ismheading {
+  font-family: "apercu";
+  font-size: large;
+  letter-spacing: 0.4rem;
+  color: #e61b1b;
+}
+
+.ismsnp {
+  color: white;
+}
+
+.ismsnp span {
+  font-family: "futurak";
+}
+
+#dettoone p {
+  line-height: inherit;
+  margin-top: 20px;
+}
+
+.btndb {
+  border: 1px solid #fff;
+  padding: 14px 25px;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "inter";
+  min-width: 100px;
+  margin-top: 25px;
+}
+
+.btndb>span {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+#dettoone img {
+  width: 100%;
+  height: auto;
+  margin: 150px 0 40px 0;
+}
+
+
+#dettosec img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+#dettosec img:nth-of-type(2) {
+  margin-top: 163px;
+}
+
+
+
+
+
+
+#middle-content-third {
+  width: 95%;
+  height: auto;
+  background-color: #0f0f0f;
+  justify-self: center;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+
+
+#headingfontsec {
+  font-family: "TnR";
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+
+#express-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.express-box {
+  width: 32%;
+  text-align: center;
+  color: white;
+  line-height: 2.4rem;
+}
+
+.express-box>p {
+  font-size: 13px;
+}
+
+.express-box img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.location {
+  color: #e61b1b;
+  letter-spacing: 4px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.brand {
+  font-family: "apercu";
+  font-size: 25px;
+  margin: 5px 0 15px 0;
+}
+
+.brand span {
+  font-family: "futurak";
+}
+
+
+.address,
+.phone {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.directions-btn {
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "inter";
+  min-width: 30px;
+  margin-top: 25px;
+}
+
+.directions-btn span {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.directions-btn span i {
+  transform: rotate(-45deg);
+}
+
+
+#lastbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+/* Footer Work */
+
+
+
+#footerdiv {
+  width: 100%;
+  height: auto;
+  background-color: #0f0f0f;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+#footerdiv span {
+  font-family: "futurak";
+}
+
+#footerdiv h1 {
+  font-size: 50px;
+  font-family: "TnR";
+  margin-top: 20px;
+  padding-top: 50px;
+  color: white;
+
+}
+
+
+#footerdiv h5 {
+  letter-spacing: 5px;
+  color: #e61b1b;
+  font-weight: 200;
+  font-size: 19px;
+}
+
+#footer-content {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+.footerimg {
+  width: 50%;
+  height: auto;
+}
+
+.footerimgs {
+  width: 40%;
+  height: auto;
+  align-content: center;
+  text-align: justify;
+}
+
+.footerimgs p {
+  font-size: 17px;
+  padding-top: -10px;
+  line-height: -0.25rem;
+}
+
+
+.footerimg img {
+  width: 100%;
+  height: auto;
+}
+
+.footerbtn {
+  border: none;
+  padding: 15px 20px;
+  background: #28a745;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "inter";
+  min-width: 30px;
+  margin-top: 25px;
+
+}
+
+.footerbtn span {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.footerbtn>span>i {
+  color: #28a745;
+}
+
+#location-section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px 50px;
+
+}
+
+#loc-heading>h1>span {
+  font-family: "futurak";
+}
+
+#loc-heading h1 {
+  font-family: "TnR";
+  font-size: 50px;
+}
+
+#loc-heading>h1>:nth-of-type(2) {
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#loc-heading {
+  text-align: center;
+  color: white;
+  margin-top: 75px;
+}
+
+.loc-box {
+  width: 32%;
+  height: 33%;
+  color: white;
+  line-height: 2.4rem;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.loc-box img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.loc-box>h3 {
+  font-size: 22px;
+  font-family: "TnR";
+  line-height: 2.2rem;
+  word-spacing: 0.1rem;
+  color: black;
+}
+
+.loc-box>h3>span {
+  font-size: 10px;
+  color: #e61b1b;
+  font-family: "apercu";
+  letter-spacing: 0.4rem;
+}
+
+.loc-box>h3>span:nth-of-type(2) {
+  font-family: sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.08rem !important;
+}
+
+#loc-boxsec {
+  height: auto;
+  padding: 20px 0;
 }
